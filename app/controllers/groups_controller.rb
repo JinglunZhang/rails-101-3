@@ -32,7 +32,6 @@ class GroupsController < ApplicationController
     else
       render :edit
     end
-  end
 
     @group.update(group_params)
 
